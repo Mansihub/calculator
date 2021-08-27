@@ -1,0 +1,55 @@
+label{
+    display:block ;
+    margin: 1rem;
+}
+input{
+    height: 1.5rem;
+    padding: 0 0.5rem;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+input.focus{
+    outline:none;
+    border-bottom: 2px solid #000;
+
+}
+.calculate{
+    margin-top: 1rem;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    border:none;
+    background:rgba(0, 183, 255, 0.301);
+    color:green;
+
+}
+.container{
+    display:flex;
+}
+.simpleinterest{
+    width:400px;
+    margin: 0 auto;
+    border: 5px solid red;
+    padding: 4% 5%;
+    box-shadow: 5px 5px 10px rgb(218,12,12,0.5);
+    border-radius: 20px;
+    
+}
+.compoundinterest{
+    width:400px;
+    margin: 0 auto;
+    border: 5px solid red;
+    padding: 4% 5%;
+    box-shadow: 5px 5px 10px rgb(218,12,12,0.5);
+    border-radius: 20px;
+}
+@media screen and (max-width:747 px) 
+ h1{
+    font-size: 1rem;
+    
+}    
+
+    
+.output{
+    color:orangered;
+
+}
